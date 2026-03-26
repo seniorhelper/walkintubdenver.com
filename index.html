@@ -3,858 +3,1522 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <title>Walk In Tub Denver | White Glove Help & Free Quote</title>
-
-  <!-- Meta (keep description <=160 incl phone) -->
-  <meta name="description" content="Walk in tub Denver pricing & guidance. White glove help choosing the right tub + installation options. Call Toll Free 1-888-779-2284(BATH)" />
-  <meta name="keywords" content="walk in tub denver, denver walk in tub, walk in tubs denver, walk in tub installation denver, walk in tub pricing denver" />
-
-  <!-- Canonical -->
+  <meta name="description" content="Walk in tub Denver pricing & guidance. White glove help choosing the right tub + one-day professional installation or DIY drop-ship. Call Toll Free 1-888-779-2284(BATH)." />
+  <meta name="keywords" content="walk in tub denver, denver walk in tub, walk in tubs denver, walk in tub installation denver, walk in tub pricing denver, colorado walk in tub" />
   <link rel="canonical" href="https://walkintubdenver.com/" />
-
-  <!-- Open Graph -->
   <meta property="og:title" content="Walk In Tub Denver | White Glove Help & Free Quote" />
-  <meta property="og:description" content="Walk in tub Denver pricing & guidance. White glove help choosing the right tub + installation options. Call Toll Free 1-888-779-2284(BATH)" />
+  <meta property="og:description" content="Walk in tub Denver pricing & guidance. White glove one-day installation or DIY drop-ship. Call Toll Free 1-888-779-2284(BATH)." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://walkintubdenver.com/" />
-
-  <!-- Favicons (optional): add later -->
-  <!-- <link rel="icon" href="/favicon.png" /> -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="google-site-verification" content="googleadb17462a109b3ca" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <style>
-    :root{
-      --bg: #ffffff;
-      --ink: #0f172a;
-      --muted: #334155;
-      --line: #e2e8f0;
-
-      --brandA: #0ea5e9;
-      --brandB: #22c55e;
-
-      --card: #f8fafc;
-      --card2: #ecfeff;
-      --card3: #fff7ed;
-
-      --shadow: 0 14px 30px rgba(15, 23, 42, 0.10);
-      --radius: 18px;
+    :root {
+      --blue:    #0ea5e9;
+      --blue2:   #0369a1;
+      --blue3:   #e0f2fe;
+      --green:   #22c55e;
+      --green2:  #15803d;
+      --dark:    #0b1220;
+      --ink:     #0f172a;
+      --muted:   #475569;
+      --light:   #f8fafc;
+      --white:   #ffffff;
+      --line:    #e2e8f0;
+      --shadow:  0 16px 36px rgba(15,23,42,0.11);
+      --shadow2: 0 6px 20px rgba(15,23,42,0.07);
+      --radius:  18px;
+      --radius2: 12px;
     }
-
-    *{ box-sizing: border-box; }
-    body{
-      margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
       color: var(--ink);
-      background: var(--bg);
-      line-height: 1.6;
+      background: var(--white);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
     }
-    a{ color: var(--brandA); text-decoration: none; }
-    a:hover{ text-decoration: underline; }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img { display: block; max-width: 100%; }
 
-    .topbar{
-      background: #0b1220;
-      color: #ffffff;
-      padding: 10px 14px;
-      font-weight: 800;
-      letter-spacing: .2px;
-      display:flex;
-      justify-content:center;
-      gap:10px;
-      flex-wrap:wrap;
-      text-align:center;
+    /* ============================================================
+       TOP BAR
+    ============================================================ */
+    .topbar {
+      background: var(--dark);
+      color: #fff;
+      padding: 9px 1.25rem;
+      font-size: 0.84rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      text-align: center;
+      letter-spacing: 0.01em;
     }
-    .topbar a{
-      color:#ffffff;
-      text-decoration:none;
-      border-bottom:1px solid rgba(255,255,255,.35);
-      padding-bottom:1px;
-    }
-    .topbar a:hover{ border-bottom-color:#ffffff; }
+    .topbar a { color: #fff; border-bottom: 1px solid rgba(255,255,255,.4); padding-bottom: 1px; }
+    .topbar a:hover { border-bottom-color: #fff; text-decoration: none; }
 
-    header{
+    /* ============================================================
+       HEADER
+    ============================================================ */
+    .site-header {
       position: sticky;
       top: 0;
-      z-index: 50;
-      background: rgba(255,255,255,.92);
-      backdrop-filter: blur(10px);
+      z-index: 200;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--line);
+      box-shadow: 0 2px 14px rgba(15,23,42,0.07);
     }
-    .header-inner{
-      max-width: 1100px;
+    .header-inner {
+      max-width: 1120px;
       margin: 0 auto;
-      padding: 14px 18px;
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap: 14px;
-    }
-    .brand{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      min-width: 220px;
-    }
-    .brand img{
-      width: 190px;
-      height: auto;
-      display:block;
-    }
-    .nav{
-      display:flex;
-      gap: 18px;
-      flex-wrap:wrap;
-      justify-content:center;
-      font-weight: 800;
-    }
-    .nav a{
-      color: var(--ink);
-      text-decoration:none;
-      padding: 8px 10px;
-      border-radius: 10px;
-    }
-    .nav a:hover{
-      background: #f1f5f9;
-      text-decoration:none;
-    }
-    .cta{
-      display:flex;
-      gap: 10px;
-      align-items:center;
-      flex-wrap:wrap;
-      justify-content:flex-end;
-      min-width: 240px;
-    }
-    .btn{
-      display:inline-block;
-      background: var(--brandA);
-      color: #ffffff;
-      font-weight: 900;
-      padding: 10px 14px;
-      border-radius: 12px;
-      text-decoration:none;
-      box-shadow: 0 10px 18px rgba(14,165,233,.22);
-      border: 1px solid rgba(14,165,233,.25);
-    }
-    .btn:hover{ text-decoration:none; filter: brightness(0.98); }
-    .btn.secondary{
-      background: #0b1220;
-      border-color: rgba(15,23,42,.2);
-      box-shadow: 0 10px 18px rgba(15,23,42,.18);
-    }
-    .phone{
-      color: var(--ink);
-      font-weight: 950;
-      font-size: 1.02rem;
-      padding: 8px 10px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      background: #ffffff;
-      text-decoration:none;
-      white-space:nowrap;
-    }
-    .phone:hover{ text-decoration:none; background:#f8fafc; }
-
-    .wrap{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 34px 18px 10px;
-    }
-
-    .hero{
-      display:grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap: 26px;
+      padding: 0 1.25rem;
+      display: flex;
       align-items: center;
-      padding: 22px 0 10px;
+      justify-content: space-between;
+      height: 80px;
+      gap: 1rem;
     }
-    .hero h1{
-      font-size: clamp(2.1rem, 4vw, 3.15rem);
-      line-height: 1.06;
-      margin: 0 0 12px;
-      letter-spacing: -0.5px;
+    .brand a { display: block; text-decoration: none; }
+    .brand img {
+      height: 120px;
+      width: auto;
+      display: block;
     }
-    .hero p{
-      margin: 0 0 16px;
-      font-size: 1.06rem;
+    .header-nav {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
+    }
+    .header-nav a {
+      font-size: 0.875rem;
+      font-weight: 700;
       color: var(--muted);
-      max-width: 56ch;
+      padding: 0.4rem 0.7rem;
+      border-radius: 10px;
+      white-space: nowrap;
+      transition: color 0.15s, background 0.15s;
     }
-    .hero .bullets{
-      display:flex;
-      flex-wrap:wrap;
-      gap: 10px;
-      margin-top: 14px;
+    .header-nav a:hover { color: var(--blue); background: var(--blue3); text-decoration: none; }
+    .header-cta {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      flex-shrink: 0;
     }
-    .pill{
-      display:inline-flex;
-      gap:8px;
-      align-items:center;
-      padding: 9px 12px;
+    .header-phone {
+      font-size: 0.92rem;
+      font-weight: 900;
+      color: var(--ink);
+      padding: 0.45rem 0.8rem;
+      border-radius: var(--radius2);
+      border: 1px solid var(--line);
+      background: var(--white);
+      white-space: nowrap;
+    }
+    .header-phone:hover { background: var(--light); text-decoration: none; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.88rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: var(--radius2);
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(14,165,233,0.28);
+      transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+      white-space: nowrap;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 12px 28px rgba(14,165,233,0.36); text-decoration: none; color: #fff; }
+    .btn.green { background: var(--green); box-shadow: 0 8px 20px rgba(34,197,94,0.28); }
+    .btn.green:hover { box-shadow: 0 12px 28px rgba(34,197,94,0.38); }
+    .btn.dark { background: var(--dark); box-shadow: 0 8px 20px rgba(11,18,32,0.22); }
+    .btn.dark:hover { box-shadow: 0 12px 28px rgba(11,18,32,0.32); }
+    .btn.lg { font-size: 1rem; padding: 0.85rem 1.75rem; border-radius: 999px; }
+
+    /* hamburger */
+    .hamburger {
+      display: none;
+      background: none;
+      border: 1px solid var(--line);
+      border-radius: var(--radius2);
+      padding: 0.45rem 0.55rem;
+      cursor: pointer;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+    }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); border-radius: 2px; transition: transform 0.22s, opacity 0.18s; }
+    .hamburger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+    .hamburger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* mobile drawer */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(11,18,32,0.55);
+      z-index: 300;
+    }
+    .mobile-nav.open { display: block; }
+    .mobile-drawer {
+      position: absolute;
+      top: 0; right: 0;
+      width: min(88vw, 320px);
+      height: 100%;
+      background: var(--white);
+      padding: 1.5rem 1.25rem;
+      overflow-y: auto;
+      box-shadow: -6px 0 28px rgba(0,0,0,0.16);
+      transform: translateX(100%);
+      transition: transform 0.26s cubic-bezier(0.4,0,0.2,1);
+    }
+    .mobile-nav.open .mobile-drawer { transform: translateX(0); }
+    .drawer-head { display: flex; justify-content: flex-end; margin-bottom: 1.25rem; }
+    .drawer-close { background: var(--light); border: 1px solid var(--line); border-radius: var(--radius2); padding: 0.4rem 0.75rem; font-size: 0.88rem; font-weight: 700; cursor: pointer; color: var(--ink); }
+    .mobile-drawer nav a { display: block; padding: 0.8rem 0; border-bottom: 1px solid var(--line); font-weight: 700; font-size: 0.97rem; color: var(--ink); }
+    .mobile-drawer nav a:hover { color: var(--blue); text-decoration: none; }
+    .mobile-cta { margin-top: 1.25rem; background: var(--blue3); border-radius: var(--radius2); padding: 1.1rem; text-align: center; }
+    .mobile-cta .label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 0.3rem; }
+    .mobile-cta a { font-size: 1.05rem; font-weight: 900; color: var(--blue2); }
+
+    /* ============================================================
+       LAYOUT
+    ============================================================ */
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 1.25rem; }
+    section { padding: 3rem 0; }
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--blue);
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.55rem, 3vw, 2.1rem);
+      font-weight: 900;
+      color: var(--ink);
+      line-height: 1.2;
+      margin-bottom: 0.65rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--ink);
+      margin-bottom: 0.45rem;
+      line-height: 1.3;
+    }
+    .lead {
+      font-size: 1.02rem;
+      color: var(--muted);
+      max-width: 62ch;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero-section {
+      background: linear-gradient(165deg, #e0f2fe 0%, #f0fdf4 40%, #ffffff 75%);
+      border-bottom: 1px solid var(--line);
+      padding: 3rem 0 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-section::before {
+      content: '';
+      position: absolute;
+      top: -100px; right: -120px;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(34,197,94,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2.5rem;
+      align-items: center;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: rgba(34,197,94,0.1);
+      color: var(--green2);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 0.28rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 0.9rem;
+    }
+    .hero-inner h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+      font-weight: 900;
+      color: var(--ink);
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+      margin-bottom: 1rem;
+    }
+    .hero-inner h1 em { font-style: normal; color: var(--blue2); }
+    .hero-inner .hero-p { font-size: 1.06rem; color: var(--muted); margin-bottom: 0.85rem; max-width: 52ch; }
+    .hero-btns { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1.25rem 0; }
+    .hero-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 0.85rem;
+    }
+    .pill {
+      display: inline-flex;
+      gap: 0.5rem;
+      align-items: center;
+      padding: 0.45rem 0.85rem;
       border-radius: 999px;
       border: 1px solid var(--line);
-      background: #ffffff;
-      font-weight: 800;
+      background: var(--white);
+      font-weight: 700;
+      font-size: 0.84rem;
       color: var(--ink);
     }
-    .pill .dot{
-      width:10px;height:10px;border-radius:999px;
-      background: linear-gradient(135deg, var(--brandA), var(--brandB));
-      display:inline-block;
-    }
+    .pill .dot { width: 9px; height: 9px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--green)); display: block; flex-shrink: 0; }
 
-    .hero-card{
-      background: linear-gradient(180deg, #ffffff, #f8fafc);
+    /* Hero card */
+    .hero-card {
+      background: var(--white);
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      padding: 18px;
+      padding: 1.5rem;
       box-shadow: var(--shadow);
     }
-    .hero-card .kicker{
-      font-weight: 950;
+    .hero-card .kicker {
+      font-size: 0.7rem;
+      font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: .9px;
-      font-size: .88rem;
-      color: #0b1220;
-      margin-bottom: 10px;
+      letter-spacing: 0.09em;
+      color: var(--blue);
+      margin-bottom: 0.55rem;
     }
-    .hero-card .big{
-      font-size: 1.35rem;
-      font-weight: 950;
-      margin: 0 0 10px;
-      line-height: 1.2;
-    }
-    .hero-card .small{
-      color: var(--muted);
-      margin: 0 0 14px;
-      font-size: .98rem;
-    }
-    .hero-card .mini{
-      display:flex;
-      gap: 10px;
-      flex-wrap:wrap;
-      margin-top: 8px;
-    }
-    .mini .tag{
-      background:#f1f5f9;
-      border:1px solid var(--line);
-      color: var(--ink);
-      padding: 8px 10px;
-      border-radius: 12px;
-      font-weight: 850;
-      font-size: .92rem;
-    }
-
-    .section{
-      margin: 34px 0;
-    }
-    .section h2{
-      font-size: 1.65rem;
-      margin: 0 0 10px;
-      letter-spacing: -0.2px;
-    }
-    .section p{
-      margin: 0 0 12px;
-      color: var(--muted);
-      max-width: 82ch;
-    }
-
-    .grid{
-      display:grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 12px;
-      margin-top: 14px;
-    }
-    .card{
-      grid-column: span 6;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 16px;
-    }
-    .card h3{
-      margin: 0 0 8px;
-      font-size: 1.1rem;
-      color: var(--ink);
-    }
-    .card p{
-      margin: 0;
-      color: var(--muted);
-      font-size: .98rem;
-    }
-
-    .steps{
-      display:grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 12px;
-      margin-top: 16px;
-    }
-    .step{
-      grid-column: span 6;
-      border-radius: var(--radius);
-      border: 1px solid var(--line);
-      padding: 16px;
-      background: #ffffff;
-    }
-    .step:nth-child(1), .step:nth-child(4){
-      background: var(--card2);
-      border-color: #a5f3fc;
-    }
-    .step:nth-child(2), .step:nth-child(5){
-      background: var(--card);
-    }
-    .step:nth-child(3), .step:nth-child(6), .step:nth-child(7){
-      background: var(--card3);
-      border-color: #fed7aa;
-    }
-    .step .n{
-      width: 34px; height: 34px;
-      border-radius: 12px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight: 950;
-      color: #ffffff;
-      background: linear-gradient(135deg, var(--brandA), var(--brandB));
-      margin-bottom: 10px;
-    }
-    .step h3{
-      margin: 0 0 6px;
-      font-size: 1.12rem;
-    }
-    .step p{
-      margin:0;
-      color: var(--muted);
-      font-size: .98rem;
-    }
-
-    .contrast-banner{
-      background: #0b1220;
-      color: #ffffff;
-      border-radius: 22px;
-      padding: 18px;
-      border: 1px solid rgba(255,255,255,.10);
-      display:flex;
-      flex-wrap:wrap;
-      gap: 14px;
-      align-items:center;
-      justify-content:space-between;
-      margin-top: 18px;
-    }
-    .contrast-banner strong{
-      font-size: 1.2rem;
-      line-height: 1.2;
-    }
-    .contrast-banner span{
-      color: rgba(255,255,255,.86);
-      font-weight: 700;
-    }
-    .contrast-banner a{ color:#ffffff; text-decoration:none; }
-    .contrast-banner a:hover{ text-decoration:underline; }
-
-    .faq{
-      border:1px solid var(--line);
-      border-radius: var(--radius);
-      overflow:hidden;
-      margin-top: 14px;
-    }
-    .faq details{
-      padding: 14px 16px;
-      background:#ffffff;
-      border-top: 1px solid var(--line);
-    }
-    .faq details:first-child{ border-top: none; }
-    .faq summary{
-      cursor:pointer;
+    .hero-card .big {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
       font-weight: 900;
       color: var(--ink);
+      line-height: 1.25;
+      margin-bottom: 0.55rem;
     }
-    .faq p{
-      margin: 10px 0 0;
-      color: var(--muted);
+    .hero-card .small { color: var(--muted); font-size: 0.93rem; margin-bottom: 1rem; }
+    .tag-wrap { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+    .tag {
+      background: var(--light);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      padding: 0.35rem 0.7rem;
+      border-radius: var(--radius2);
+      font-weight: 700;
+      font-size: 0.85rem;
     }
+    .divider { border: none; border-top: 1px solid var(--line); margin: 1rem 0; }
 
-    footer{
-      margin-top: 44px;
-      border-top: 1px solid var(--line);
-      background: #ffffff;
+    /* ============================================================
+       PROCESS — THE FOCAL POINT
+    ============================================================ */
+    .process-section {
+      background: var(--dark);
+      padding: 4rem 0;
     }
-    .footer-inner{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 20px 18px 28px;
-      display:grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 18px;
+    .process-section .section-label { color: var(--green); }
+    .process-section h2 { color: #fff; }
+    .process-section .lead { color: rgba(255,255,255,0.72); }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-top: 2rem;
     }
-    .footer-inner h4{
-      margin: 0 0 10px;
+    .process-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.35rem;
+      position: relative;
+      transition: background 0.2s;
+    }
+    .process-card:hover { background: rgba(255,255,255,0.09); }
+    .process-card.highlight {
+      background: linear-gradient(135deg, rgba(14,165,233,0.18), rgba(34,197,94,0.12));
+      border-color: rgba(14,165,233,0.35);
+    }
+    .process-num {
+      width: 40px; height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--blue), var(--green));
+      color: #fff;
+      font-weight: 900;
       font-size: 1rem;
-      letter-spacing: -0.1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.85rem;
+      flex-shrink: 0;
     }
-    .footer-inner p, .footer-inner li{
-      color: var(--muted);
-      margin: 0 0 8px;
-      font-size: .96rem;
-    }
-    .footer-links{
-      list-style:none;
-      padding:0;
-      margin:0;
-      display:grid;
-      grid-template-columns: repeat(2, minmax(0,1fr));
-      gap: 8px 12px;
-    }
-    .footer-links a{ font-weight: 800; }
-    .legal{
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 10px 18px 22px;
-      color: var(--muted);
-      font-size: .92rem;
-      display:flex;
-      flex-wrap:wrap;
-      gap: 10px;
-      justify-content:space-between;
-      border-top: 1px dashed var(--line);
+    .process-card h3 { color: #fff; font-size: 1.05rem; margin-bottom: 0.45rem; }
+    .process-card p { color: rgba(255,255,255,0.68); font-size: 0.92rem; margin: 0; }
+    .process-card .badge {
+      display: inline-block;
+      margin-top: 0.65rem;
+      font-size: 0.68rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background: rgba(34,197,94,0.18);
+      color: #4ade80;
+      border: 1px solid rgba(34,197,94,0.3);
     }
 
-    /* Responsive */
-    @media (max-width: 920px){
-      .hero{ grid-template-columns: 1fr; }
-      .brand{ min-width: unset; }
-      .cta{ min-width: unset; justify-content:flex-start; }
-      .card{ grid-column: span 12; }
-      .step{ grid-column: span 12; }
-      .footer-inner{ grid-template-columns: 1fr; }
-      .footer-links{ grid-template-columns: 1fr; }
+    .process-cta-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 2.5rem;
+      padding: 1.5rem;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      justify-content: space-between;
+    }
+    .process-cta-row .text strong { color: #fff; font-size: 1.1rem; display: block; }
+    .process-cta-row .text span { color: rgba(255,255,255,0.65); font-size: 0.9rem; }
+    .process-cta-row .btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+
+    /* ============================================================
+       INSTALLATION OPTIONS
+    ============================================================ */
+    .install-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 1.75rem;
+    }
+    .install-card {
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      padding: 1.75rem;
+      background: var(--white);
+      box-shadow: var(--shadow2);
+    }
+    .install-card.featured {
+      border-color: rgba(14,165,233,0.35);
+      border-top: 4px solid var(--blue);
+      background: linear-gradient(160deg, var(--blue3), #fff 55%);
+    }
+    .install-icon {
+      width: 48px; height: 48px;
+      border-radius: var(--radius2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      margin-bottom: 1rem;
+    }
+    .install-icon.blue { background: var(--blue3); }
+    .install-icon.green { background: rgba(34,197,94,0.1); }
+    .install-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .install-card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.75rem; }
+    .install-card ul { list-style: none; padding: 0; margin-bottom: 1.25rem; }
+    .install-card li { display: flex; gap: 0.55rem; align-items: flex-start; padding: 0.35rem 0; border-bottom: 1px solid var(--line); font-size: 0.93rem; color: var(--ink); }
+    .install-card li:last-child { border-bottom: none; }
+    .li-icon { width: 18px; height: 18px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--green)); color: #fff; font-size: 0.55rem; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.15rem; }
+    .best-badge { display: inline-block; font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.07em; padding: 0.22rem 0.55rem; border-radius: 999px; background: rgba(14,165,233,0.12); color: var(--blue2); border: 1px solid rgba(14,165,233,0.25); margin-bottom: 0.65rem; }
+
+    /* ============================================================
+       TRUST CARDS
+    ============================================================ */
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-top: 1.75rem;
+    }
+    .trust-card {
+      background: var(--light);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .trust-card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .trust-card p { font-size: 0.88rem; color: var(--muted); margin: 0; }
+
+    /* ============================================================
+       CONTRAST BANNER
+    ============================================================ */
+    .contrast-banner {
+      background: var(--dark);
+      border-radius: 22px;
+      padding: 1.75rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2rem 0;
+    }
+    .contrast-banner strong { font-size: 1.15rem; color: #fff; display: block; margin-bottom: 0.2rem; }
+    .contrast-banner span { color: rgba(255,255,255,0.72); font-size: 0.9rem; }
+    .contrast-banner .btns { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+
+    /* ============================================================
+       ABOUT SECTION
+    ============================================================ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2.5rem;
+      align-items: start;
+    }
+    .about-grid p { color: var(--muted); font-size: 0.97rem; margin-bottom: 1rem; max-width: 68ch; }
+    .about-grid strong { color: var(--ink); }
+    .stat-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+      margin-top: 1.25rem;
+    }
+    .stat-box {
+      background: var(--light);
+      border: 1px solid var(--line);
+      border-radius: var(--radius2);
+      padding: 1rem;
+    }
+    .stat-box .num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--blue2);
+      line-height: 1;
+      margin-bottom: 0.2rem;
+    }
+    .stat-box .lbl { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
+
+    /* ============================================================
+       COLORADO COVERAGE
+    ============================================================ */
+    .co-section {
+      background: linear-gradient(160deg, var(--blue3) 0%, #f0fdf4 50%, var(--white) 90%);
+      border-radius: calc(var(--radius) + 4px);
+      padding: 2.5rem 2rem;
+      border: 1px solid rgba(14,165,233,0.15);
+    }
+    .co-section h2 { margin-bottom: 0.65rem; }
+    .county-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.4rem;
+      margin-top: 1.25rem;
+    }
+    .county {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 0.35rem 0.55rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-align: center;
+    }
+    .county.highlight { background: var(--blue3); border-color: rgba(14,165,233,0.28); color: var(--blue2); font-weight: 800; }
+
+    /* ============================================================
+       QUOTE FORM
+    ============================================================ */
+    .quote-section {
+      background: linear-gradient(145deg, var(--blue3) 0%, #f0fdf4 50%, var(--white) 100%);
+      border-radius: calc(var(--radius) + 4px);
+      padding: 2.5rem 2rem;
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 2rem;
+      align-items: start;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(14,165,233,0.12);
+    }
+    .quote-left h2 { margin-bottom: 0.6rem; }
+    .quote-left p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.75rem; max-width: 46ch; }
+    .mini-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 0.85rem; }
+    .mini-box { background: rgba(255,255,255,0.85); border: 1px solid var(--line); border-radius: var(--radius2); padding: 0.7rem 0.85rem; font-size: 0.83rem; color: var(--ink); }
+    .mini-box b { display: block; color: var(--blue2); font-size: 0.8rem; margin-bottom: 0.15rem; }
+
+    .form-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.35rem;
+      box-shadow: 0 16px 40px rgba(15,23,42,0.14);
+      border: 1px solid var(--line);
+    }
+    .form-title { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 900; color: var(--ink); margin-bottom: 0.25rem; }
+    .form-sub { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.9rem; }
+    label { display: block; font-size: 0.74rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 0.6rem 0 0.25rem; }
+    input, select, textarea {
+      width: 100%;
+      padding: 0.62rem 0.75rem;
+      border-radius: 10px;
+      border: 1.5px solid rgba(15,23,42,0.14);
+      font-size: 0.92rem;
+      font-family: inherit;
+      outline: none;
+      background: var(--white);
+      color: var(--ink);
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(14,165,233,0.15);
+    }
+    textarea { min-height: 85px; resize: vertical; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; }
+    .full { grid-column: 1 / -1; }
+    .form-actions { display: flex; gap: 0.65rem; flex-wrap: wrap; align-items: center; margin-top: 1rem; }
+    .disclaimer { font-size: 0.7rem; color: var(--muted); max-width: 17rem; }
+    #formStatus { font-size: 0.85rem; margin-top: 0.65rem; min-height: 1rem; font-weight: 700; }
+
+    /* ============================================================
+       FAQ
+    ============================================================ */
+    .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-top: 1.5rem; }
+    .faq-item {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius2);
+      overflow: hidden;
+      box-shadow: 0 3px 12px rgba(15,23,42,0.05);
+      transition: border-color 0.2s;
+    }
+    .faq-item[open] { border-color: rgba(14,165,233,0.3); }
+    .faq-item summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.93rem;
+      color: var(--ink);
+      padding: 0.9rem 1.1rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.65rem;
+      user-select: none;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.15rem; font-weight: 400; color: var(--blue); flex-shrink: 0; transition: transform 0.2s; }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item[open] summary { color: var(--blue); }
+    .faq-answer { padding: 0 1.1rem 0.9rem; border-top: 1px solid var(--line); padding-top: 0.75rem; font-size: 0.9rem; color: var(--muted); line-height: 1.68; }
+    .faq-answer a { color: var(--blue); font-weight: 600; text-decoration: underline; }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: var(--dark);
+      color: rgba(255,255,255,0.65);
+      margin-top: 1px;
+    }
+    .footer-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 1.75rem;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 2rem;
+    }
+    .footer-logo-wrap { display: inline-block; background: #fff; border-radius: 10px; padding: 0.45rem 0.65rem; margin-bottom: 0.85rem; }
+    .footer-logo-wrap img { height: 55px; width: auto; }
+    .footer-title { font-weight: 800; color: #fff; margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .footer-p { font-size: 0.85rem; line-height: 1.65; margin-bottom: 0.5rem; }
+    .footer-p a { color: rgba(255,255,255,0.8); font-weight: 700; }
+    .footer-p a:hover { color: var(--blue); }
+    .footer-links { list-style: none; }
+    .footer-links li { margin: 0.4rem 0; }
+    .footer-links a { color: rgba(255,255,255,0.55); font-size: 0.85rem; font-weight: 600; }
+    .footer-links a:hover { color: var(--blue); text-decoration: none; }
+    .footer-bottom {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      font-size: 0.77rem;
+      color: rgba(255,255,255,0.35);
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.45); font-weight: 700; }
+    .footer-bottom a:hover { color: var(--blue); text-decoration: none; }
+
+    /* ============================================================
+       RESPONSIVE
+    ============================================================ */
+    @media (max-width: 1024px) {
+      .trust-grid { grid-template-columns: 1fr 1fr; }
+      .county-grid { grid-template-columns: repeat(4, 1fr); }
+      .process-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 860px) {
+      .header-nav { display: none; }
+      .header-cta { display: none; }
+      .hamburger { display: flex; }
+      .header-inner { height: auto; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+      .brand img { height: 100px; }
+
+      .hero-inner { grid-template-columns: 1fr; }
+      .install-grid { grid-template-columns: 1fr; }
+      .about-grid { grid-template-columns: 1fr; }
+      .quote-section { grid-template-columns: 1fr; padding: 1.75rem 1.25rem; }
+      .mini-grid { grid-template-columns: 1fr; }
+      .faq-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .process-cta-row { flex-direction: column; align-items: flex-start; }
+      .county-grid { grid-template-columns: repeat(3, 1fr); }
+      .form-row { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .process-grid { grid-template-columns: 1fr; }
+      .trust-grid { grid-template-columns: 1fr; }
+      .stat-row { grid-template-columns: 1fr; }
+      .county-grid { grid-template-columns: repeat(2, 1fr); }
+      .contrast-banner { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
-
 <body>
 
-  <!-- Top call strip -->
-  <div class="topbar">
-    <span>Denver Walk In Tub Help — White Glove Guidance</span>
-    <span>•</span>
-    <a href="tel:18887792284" aria-label="Call toll free 1-888-779-2284 BATH">
-      Call Toll Free <strong>1-888-779-2284(BATH)</strong>
-    </a>
-  </div>
+<!-- TOP BAR -->
+<div class="topbar">
+  <span>Denver Walk In Tub Help — White Glove Guidance</span>
+  <span>•</span>
+  <a href="tel:18887792284">Call Toll Free <strong>1-888-779-2284(BATH)</strong></a>
+</div>
 
-  <header>
-    <div class="header-inner">
-      <div class="brand">
-        <a href="/" aria-label="Walk In Tub Denver home">
-          <img
-            src="https://www.agingsafelybaths.com/wp-content/uploads/2025/12/aging-safely-baths-logo-2.png-2.png"
-            alt="Aging Safely Baths logo"
-            loading="eager"
-          />
-        </a>
-      </div>
-
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="/">Home</a>
-        <a href="/" aria-current="page">Walk In Tub Denver</a>
-        <a href="/areas-we-serve.html">Areas We Serve</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-
-      <div class="cta">
-        <a class="phone" href="tel:18887792284">1-888-779-2284(BATH)</a>
-        <a class="btn" href="/contact.html">Get Denver Pricing</a>
-      </div>
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a href="/" aria-label="Walk In Tub Denver home">
+        <img
+          src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
+          alt="Aging Safely Baths — Walk In Tub Denver"
+          width="320" height="120"
+          loading="eager"
+        />
+      </a>
     </div>
-  </header>
 
-  <main class="wrap">
+    <nav class="header-nav" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="#process">Our Process</a>
+      <a href="#installation">Installation</a>
+      <a href="#colorado">Colorado Coverage</a>
+      <a href="#quote">Free Quote</a>
+      <a href="#faq">FAQ</a>
+      <a href="/areas-we-serve.html">Areas We Serve</a>
+    </nav>
 
-    <!-- HERO -->
-    <section class="hero" aria-label="Walk in tub Denver hero">
+    <div class="header-cta">
+      <a class="header-phone" href="tel:18887792284">1-888-779-2284(BATH)</a>
+      <a class="btn" href="#quote">Get Denver Pricing</a>
+    </div>
+
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav" onclick="toggleMenu(this)">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE DRAWER -->
+<div class="mobile-nav" id="mobileNav" onclick="closeMenuOnOverlay(event)">
+  <div class="mobile-drawer">
+    <div class="drawer-head"><button class="drawer-close" onclick="closeMenu()">✕ Close</button></div>
+    <nav>
+      <a href="/" onclick="closeMenu()">Home</a>
+      <a href="#process" onclick="closeMenu()">Our Process</a>
+      <a href="#installation" onclick="closeMenu()">Installation Options</a>
+      <a href="#colorado" onclick="closeMenu()">Colorado Coverage</a>
+      <a href="#quote" onclick="closeMenu()">Get a Free Quote</a>
+      <a href="#faq" onclick="closeMenu()">FAQ</a>
+      <a href="/areas-we-serve.html" onclick="closeMenu()">Areas We Serve</a>
+      <a href="/contact.html" onclick="closeMenu()">Contact</a>
+    </nav>
+    <div class="mobile-cta">
+      <div class="label">Call Toll-Free Anytime</div>
+      <a href="tel:18887792284">1-888-779-2284 (BATH)</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section class="hero-section" id="home">
+  <div class="wrap">
+    <div class="hero-inner">
       <div>
-        <h1>Walk In Tub Denver</h1>
-        <p>
+        <div class="hero-eyebrow">✦ White Glove Guidance • Denver &amp; All of Colorado</div>
+        <h1>Walk In Tub <em>Denver</em></h1>
+        <p class="hero-p">
           If you want the right walk in tub for your bathroom, your mobility, and your comfort,
-          you need more than a quick price.
-          You need a clear plan.
-          That’s what we do.
+          you need more than a quick price. You need a clear plan. That's what we do.
         </p>
-        <p>
-          Our “white glove” process helps Denver homeowners choose the right size and features,
+        <p class="hero-p">
+          Our white glove process helps Denver homeowners choose the right size and features,
           avoid surprises, and move forward with confidence.
-          When you’re ready, we’ll help you get pricing and next steps fast.
+          When you're ready, we'll help you get pricing and next steps fast.
         </p>
 
-        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top: 16px;">
-          <a class="btn" href="/contact.html">Get a Fast Quote</a>
-          <a class="btn secondary" href="/areas-we-serve.html">See Areas We Serve</a>
+        <div class="hero-btns">
+          <a class="btn lg green" href="#quote">Get a Fast Quote</a>
+          <a class="btn lg dark" href="/areas-we-serve.html">See Areas We Serve</a>
         </div>
 
-        <div class="bullets" aria-label="Key benefits">
+        <div class="hero-pills">
           <span class="pill"><span class="dot"></span> Free guidance first</span>
-          <span class="pill"><span class="dot"></span> Installation options</span>
+          <span class="pill"><span class="dot"></span> One-day installation</span>
+          <span class="pill"><span class="dot"></span> DIY drop-ship available</span>
           <span class="pill"><span class="dot"></span> Lifetime warranties</span>
           <span class="pill"><span class="dot"></span> Denver-focused support</span>
         </div>
-
-        <div class="contrast-banner" role="region" aria-label="Call to action banner">
-          <div>
-            <strong>Talk to a real person.</strong><br />
-            <span>Call toll free or request Denver pricing in minutes.</span>
-          </div>
-          <div style="display:flex; gap:10px; flex-wrap:wrap;">
-            <a class="btn" href="tel:18887792284" style="background:#22c55e;border-color:rgba(34,197,94,.35);box-shadow:0 10px 18px rgba(34,197,94,.20);">
-              Call 1-888-779-2284(BATH)
-            </a>
-            <a class="btn secondary" href="/contact.html">Request Pricing</a>
-          </div>
-        </div>
       </div>
 
-      <!-- Right card -->
-      <aside class="hero-card" aria-label="What you get">
+      <aside class="hero-card">
         <div class="kicker">White Glove Help</div>
         <p class="big">We help you choose the right tub the first time.</p>
-        <p class="small">
-          Simple steps. Short answers. Clear recommendations.
-          No confusion.
-        </p>
-
-        <div class="mini">
+        <p class="small">Simple steps. Short answers. Clear recommendations. No confusion.</p>
+        <div class="tag-wrap">
           <span class="tag">Size + fit</span>
           <span class="tag">Mobility match</span>
           <span class="tag">Comfort check</span>
           <span class="tag">Feature guidance</span>
           <span class="tag">Warranty clarity</span>
         </div>
-
-        <div style="margin-top:14px; border-top:1px solid var(--line); padding-top:14px;">
-          <p style="margin:0 0 10px; color:var(--muted); font-weight:700;">
-            Already browsing tubs?
-          </p>
-          <a class="btn" href="https://denverwalkintub.com/" target="_blank" rel="noopener noreferrer">
-            View Denver Walk In Tub Store
-          </a>
-          <p style="margin:10px 0 0; color:var(--muted); font-size:.95rem;">
-            Powered by <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener noreferrer" style="font-weight:900;">Aging Safely Baths</a>.
-          </p>
-        </div>
+        <hr class="divider" />
+        <p style="margin:0 0 0.75rem; color:var(--muted); font-weight:700; font-size:0.9rem;">Already browsing tubs?</p>
+        <a class="btn" href="https://denverwalkintub.com/" target="_blank" rel="noopener noreferrer">View Denver Walk In Tub Store</a>
+        <p style="margin:0.65rem 0 0; color:var(--muted); font-size:0.85rem;">
+          Powered by <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener noreferrer" style="font-weight:800;">Aging Safely Baths</a>.
+        </p>
       </aside>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- TRUST GRID -->
-    <section class="section" aria-label="Trust signals">
-      <h2>Premium Walk In Tub Guidance for Denver Homeowners</h2>
-      <p>
-        Many people start with “walk in tub near me” and end up overwhelmed.
-        Prices vary.
-        Features vary.
-        And installation details matter.
-        We simplify the decision so you can move forward with confidence.
-      </p>
+<!-- ============================================================
+     TRUST CARDS
+============================================================ -->
+<div class="wrap">
+  <section>
+    <div class="section-label">Why Denver Homeowners Choose Us</div>
+    <h2>Premium Walk In Tub Guidance for Denver Homeowners</h2>
+    <p class="lead">
+      Many people start with "walk in tub near me" and end up overwhelmed.
+      Prices vary. Features vary. And installation details matter.
+      We simplify the decision so you can move forward with confidence —
+      and feel good about your choice for years to come.
+    </p>
 
-      <div class="grid">
-        <div class="card">
-          <h3>Clear sizing and layout guidance</h3>
-          <p>We help you choose a tub that fits your bathroom and your daily routine.</p>
-        </div>
-        <div class="card">
-          <h3>Comfort-first recommendations</h3>
-          <p>Seat height, interior room, and entry style matter. We walk through it with you.</p>
-        </div>
-        <div class="card">
-          <h3>Feature selection that makes sense</h3>
-          <p>Heated seats, hydrotherapy, lighting, and more — only what improves your experience.</p>
-        </div>
-        <div class="card">
-          <h3>Warranty clarity and third-party certifications</h3>
-          <p>We help you compare what’s real, what’s marketing, and what protects you long term.</p>
-        </div>
+    <div class="trust-grid">
+      <div class="trust-card">
+        <h3>Clear sizing and layout guidance</h3>
+        <p>We help you choose a tub that fits your bathroom and your daily routine — without guessing.</p>
       </div>
-    </section>
+      <div class="trust-card">
+        <h3>Comfort-first recommendations</h3>
+        <p>Seat height, interior room, and entry style all change the experience. We walk through every detail with you.</p>
+      </div>
+      <div class="trust-card">
+        <h3>Feature selection that makes sense</h3>
+        <p>Heated seats, hydrotherapy, lighting, and more — only what genuinely improves your comfort.</p>
+      </div>
+      <div class="trust-card">
+        <h3>Warranty clarity and certifications</h3>
+        <p>We help you compare what's real protection versus what's marketing, so you know what you're buying.</p>
+      </div>
+    </div>
+  </section>
+</div>
 
-    <!-- WHITE GLOVE STEPS -->
-    <section class="section" aria-label="White glove steps">
-      <h2>Our White Glove Walk In Tub Process</h2>
-      <p>
-        This is the simplest way to choose a walk in tub in Denver without second guessing.
-        It’s structured, but it’s not complicated.
-        You’ll know what you’re buying and why it fits you.
-      </p>
+<!-- ============================================================
+     THE PROCESS — FOCAL POINT
+============================================================ -->
+<section class="process-section" id="process">
+  <div class="wrap">
+    <div class="section-label">Our White Glove Process</div>
+    <h2>How We Guide You — Step by Step</h2>
+    <p class="lead">
+      This is the simplest way to choose a walk in tub in Denver without second-guessing.
+      It's structured, but it's not complicated. By the end, you'll know exactly what you're buying and why it fits you.
+      Most projects are completed in a single day.
+    </p>
 
-      <div class="steps">
-        <div class="step">
-          <div class="n">1</div>
-          <h3>Choose the right size for your bathroom</h3>
-          <p>We look at layout, doorways, and space so the tub fits cleanly with fewer surprises.</p>
-        </div>
-
-        <div class="step">
-          <div class="n">2</div>
-          <h3>Match the tub to your mobility today and later</h3>
-          <p>Step-in height matters. We also plan for future needs so you don’t outgrow your choice.</p>
-        </div>
-
-        <div class="step">
-          <div class="n">3</div>
-          <h3>Confirm comfort inside the tub</h3>
-          <p>Interior width, seat height, and legroom change the experience. Comfort is non-negotiable.</p>
-        </div>
-
-        <div class="step">
-          <div class="n">4</div>
-          <h3>Compare warranty and certification details</h3>
-          <p>We help you look for meaningful protections and third-party certifications where available.</p>
-        </div>
-
-        <div class="step">
-          <div class="n">5</div>
-          <h3>Pick the features that improve your daily life</h3>
-          <p>Heated seat, air bubbles, micro bubbles, hydrotherapy jets, lighting, aromatherapy — guided.</p>
-        </div>
-
-        <div class="step">
-          <div class="n">6</div>
-          <h3>Work with a company that stays with you</h3>
-          <p>Personal guidance before and after. No disappearing act. Real support when you need it.</p>
-        </div>
-
-        <div class="step" style="grid-column: span 12;">
-          <div class="n">7</div>
-          <h3>Professional installation options done right</h3>
-          <p>
-            We help you understand installation options and what “done right” looks like,
-            so your home is respected and your project runs smoothly.
-          </p>
-        </div>
+    <div class="process-grid">
+      <div class="process-card">
+        <div class="process-num">1</div>
+        <h3>Choose the right size for your bathroom</h3>
+        <p>We look at layout, doorways, and space so the tub fits cleanly with fewer surprises. Getting size right first saves time and money later.</p>
       </div>
 
-      <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap;">
-        <a class="btn" href="/contact.html">Get Denver Pricing</a>
-        <a class="btn secondary" href="tel:18887792284">Call 1-888-779-2284(BATH)</a>
+      <div class="process-card">
+        <div class="process-num">2</div>
+        <h3>Match the tub to your mobility today and later</h3>
+        <p>Step-in height matters. We also plan for future needs so you don't outgrow your choice — or face another renovation in five years.</p>
       </div>
-    </section>
 
-    <!-- FAQ -->
-    <section class="section" aria-label="Frequently asked questions">
-      <h2>Denver Walk In Tub FAQs</h2>
-      <p>
-        These are the questions we hear most from Denver homeowners.
-        If you want quick clarity, start here.
-      </p>
-
-      <div class="faq">
-        <details>
-          <summary>How much does a walk in tub cost in Denver?</summary>
-          <p>
-            Pricing depends on size, features, and installation needs.
-            The fastest way to get accurate Denver pricing is to request a quote with your ZIP code.
-          </p>
-        </details>
-
-        <details>
-          <summary>How do I know what size walk in tub fits my bathroom?</summary>
-          <p>
-            We look at your layout, doorway clearance, and tub placement.
-            Then we recommend sizes that fit cleanly and function well.
-          </p>
-        </details>
-
-        <details>
-          <summary>Is a transfer-style tub better than a standard walk in tub?</summary>
-          <p>
-            It depends on mobility and comfort needs.
-            Transfer style can be helpful for certain mobility profiles, but it is not best for everyone.
-          </p>
-        </details>
-
-        <details>
-          <summary>Which features are worth it?</summary>
-          <p>
-            Many homeowners love hydrotherapy jets, air bubbles, heated seats, and quick drainage.
-            We help you choose features that improve comfort without overspending.
-          </p>
-        </details>
-
-        <details>
-          <summary>Do you serve areas outside Denver?</summary>
-          <p>
-            Yes. We support many nearby cities.
-            See our <a href="/areas-we-serve.html" style="font-weight:900;">Denver Areas We Serve</a> page for details.
-          </p>
-        </details>
-
-        <details>
-          <summary>How do I get started?</summary>
-          <p>
-            Request pricing through our contact form or call toll free.
-            We’ll guide you through sizing, mobility fit, and feature choices.
-          </p>
-        </details>
-
-        <details>
-          <summary>Can I call to speak with someone today?</summary>
-          <p>
-            Yes. Call toll free at <a href="tel:18887792284" style="font-weight:950;">1-888-779-2284(BATH)</a>.
-          </p>
-        </details>
+      <div class="process-card">
+        <div class="process-num">3</div>
+        <h3>Confirm comfort inside the tub</h3>
+        <p>Interior width, seat height, and legroom change the daily experience dramatically. Comfort is non-negotiable — especially for long-term use.</p>
       </div>
-    </section>
 
-  </main>
+      <div class="process-card">
+        <div class="process-num">4</div>
+        <h3>Compare warranty and certification details</h3>
+        <p>We help you look for meaningful protections and third-party certifications where available — and flag what to avoid.</p>
+      </div>
 
-  <footer>
-    <div class="footer-inner">
-      <div>
-        <h4>Walk In Tub Denver</h4>
+      <div class="process-card">
+        <div class="process-num">5</div>
+        <h3>Pick the features that improve your daily life</h3>
+        <p>Heated seat, air bubbles, micro bubbles, hydrotherapy jets, lighting, aromatherapy — we guide you to only what matters for your routine.</p>
+      </div>
+
+      <div class="process-card">
+        <div class="process-num">6</div>
+        <h3>Work with a company that stays with you</h3>
+        <p>Personal guidance before and after. No disappearing act. Real support when you need it, from the first call through post-installation.</p>
+      </div>
+
+      <div class="process-card highlight" style="grid-column: 1 / -1;">
+        <div style="display:flex; gap:1.5rem; align-items:flex-start; flex-wrap:wrap;">
+          <div>
+            <div class="process-num">7</div>
+          </div>
+          <div>
+            <h3>Professional installation — done right, done in one day</h3>
+            <p>
+              Once you've chosen your tub, installation is handled by our factory-certified professionals.
+              In most Denver-area homes, the entire project is completed in a single day.
+              We respect your home, protect your floors, and leave the job cleaner than we found it.
+              No multi-day disruption. No subcontractor confusion. Just one smooth day and a brand-new tub ready to use.
+            </p>
+            <div class="badge">Worry-Free One-Day Installation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="process-cta-row">
+      <div class="text">
+        <strong>Ready to start your white glove process?</strong>
+        <span>Get clear Denver pricing and take the first step today.</span>
+      </div>
+      <div class="btns">
+        <a class="btn green" href="#quote">Get Denver Pricing</a>
+        <a class="btn" href="tel:18887792284">Call 1-888-779-2284(BATH)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     INSTALLATION OPTIONS
+============================================================ -->
+<section id="installation">
+  <div class="wrap">
+    <div class="section-label">Installation Options</div>
+    <h2>Choose How You Want It Installed</h2>
+    <p class="lead">
+      We understand that every homeowner's situation is different. That's why we offer two paths —
+      our worry-free professional installation and a DIY drop-ship option for those who already have a trusted contractor.
+      Either way, you get the same expert guidance and the same quality products.
+    </p>
+
+    <div class="install-grid">
+      <div class="install-card featured">
+        <div class="best-badge">Most Popular — Recommended</div>
+        <div class="install-icon blue">🛁</div>
+        <h3>White Glove Professional Installation</h3>
         <p>
-          A Denver-focused microsite built to help homeowners choose the right walk in tub.
-          For product browsing, visit <a href="https://denverwalkintub.com/" target="_blank" rel="noopener noreferrer" style="font-weight:900;">DenverWalkInTub.com</a>.
+          Our factory-certified installers handle everything from start to finish.
+          In most cases, your new walk in tub is fully installed and ready to use in a single day.
+          This is the easiest, most worry-free path available — and it's backed by our installation warranty.
         </p>
-        <p>
-          Call toll free: <a href="tel:18887792284" style="font-weight:950;">1-888-779-2284(BATH)</a>
-        </p>
-        <p style="margin-top:10px;">
-          Brand site: <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener noreferrer" style="font-weight:900;">Aging Safely Baths</a>
-        </p>
-      </div>
-
-      <div>
-        <h4>HTML Sitemap</h4>
-        <ul class="footer-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Walk In Tub Denver</a></li>
-          <li><a href="/areas-we-serve.html">Areas We Serve</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-          <li><a href="https://denverwalkintub.com/" target="_blank" rel="noopener noreferrer">Buy Walk In Tub Here</a></li>
-          <li><a href="/sitemap.xml">XML Sitemap</a></li>
+        <ul>
+          <li><span class="li-icon">✓</span> Factory-certified, experienced installers</li>
+          <li><span class="li-icon">✓</span> One-day completion in most Denver-area homes</li>
+          <li><span class="li-icon">✓</span> Floor protection and full cleanup included</li>
+          <li><span class="li-icon">✓</span> Existing tub removal handled</li>
+          <li><span class="li-icon">✓</span> Installation warranty provided</li>
+          <li><span class="li-icon">✓</span> No coordinating multiple contractors</li>
         </ul>
+        <a class="btn green" href="#quote">Get a Professional Installation Quote</a>
+      </div>
+
+      <div class="install-card">
+        <div class="install-icon green">🔧</div>
+        <h3>DIY Drop-Ship — Use Your Own Contractor</h3>
+        <p>
+          Already have a licensed contractor you trust? No problem.
+          We can ship your chosen walk in tub directly to your home or job site.
+          Your contractor handles the installation, and we handle the product guidance and delivery coordination.
+          This option gives you full flexibility while still benefiting from our white glove product selection process.
+        </p>
+        <ul>
+          <li><span class="li-icon">✓</span> Product shipped to your door or job site</li>
+          <li><span class="li-icon">✓</span> Same white glove sizing and selection guidance</li>
+          <li><span class="li-icon">✓</span> Works with any licensed Colorado contractor</li>
+          <li><span class="li-icon">✓</span> Full product warranty still applies</li>
+          <li><span class="li-icon">✓</span> We support your contractor with spec sheets</li>
+        </ul>
+        <a class="btn dark" href="#quote">Request a Drop-Ship Quote</a>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="legal">
-      <span>Copyright 2026 WalkInTubDenver.com</span>
-      <span>
-        <a href="tel:18887792284" style="font-weight:900;">Call 1-888-779-2284(BATH)</a>
-      </span>
+<!-- ============================================================
+     ABOUT / EXPANDED COPY
+============================================================ -->
+<section style="background: var(--light); padding: 3rem 0;">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <div class="section-label">About Our Service</div>
+        <h2>Denver's Walk In Tub Specialists — Backed by Aging Safely Baths</h2>
+        <p>
+          WalkInTubDenver.com is a dedicated resource for Denver and Colorado homeowners who want expert,
+          unhurried guidance when choosing a walk in tub. We are backed by
+          <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener"><strong>Aging Safely Baths &amp; More</strong></a>,
+          a nationally recognized accessible bathing specialist with decades of experience helping seniors and
+          aging-in-place homeowners make the right decision the first time.
+        </p>
+        <p>
+          We know that a walk in tub is a significant investment. Therefore, we take the time to understand your
+          specific bathroom layout, your mobility needs, and your comfort priorities before we ever recommend a product.
+          As a result, our clients avoid the most common mistakes — buying the wrong size, overpaying for features they
+          won't use, or choosing a tub that creates new problems instead of solving existing ones.
+        </p>
+        <p>
+          Because Denver's housing stock varies widely — from 1950s ranch homes in Lakewood to newer construction in
+          Highlands Ranch — we've developed real expertise in fitting walk in tubs into unusual bathroom configurations.
+          In addition, Colorado's altitude and water pressure variations are factors we account for during our product recommendations.
+          Consequently, you get guidance that is genuinely specific to this region.
+        </p>
+        <p>
+          Beyond the product itself, our installation team has completed hundreds of one-day tub installations across the
+          Denver metro area and the broader Front Range. Furthermore, our drop-ship program gives you a flexible alternative
+          if you prefer to work with a local contractor you already trust.
+          Either way, your experience is backed by our full product warranty and post-installation support.
+        </p>
+
+        <div class="contrast-banner">
+          <div>
+            <strong>Talk to a real person today.</strong>
+            <span>Call toll free or request Denver pricing in minutes.</span>
+          </div>
+          <div class="btns">
+            <a class="btn green" href="tel:18887792284">Call 1-888-779-2284(BATH)</a>
+            <a class="btn dark" href="#quote">Request Pricing</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="stat-row">
+          <div class="stat-box">
+            <div class="num">1-Day</div>
+            <div class="lbl">Typical Installation Time</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">64</div>
+            <div class="lbl">Colorado Counties Served</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">2</div>
+            <div class="lbl">Install Options: Pro or DIY</div>
+          </div>
+          <div class="stat-box">
+            <div class="num">$0</div>
+            <div class="lbl">Cost to Get a Quote</div>
+          </div>
+        </div>
+
+        <div style="margin-top:1.25rem; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:1.35rem; box-shadow:var(--shadow2);">
+          <h3 style="margin-bottom:0.65rem;">What Makes a Walk In Tub Right for You?</h3>
+          <p style="color:var(--muted); font-size:0.9rem; margin-bottom:0.75rem;">
+            Not every walk in tub is built the same way. Some are built for soaking and hydrotherapy.
+            Others prioritize a compact footprint. Still others are designed for bariatric users or for
+            seniors who need a particularly low step-in height.
+            We start by understanding your situation — then we match you to the right product,
+            not the other way around.
+          </p>
+          <p style="color:var(--muted); font-size:0.9rem; margin:0;">
+            If you're also comparing a walk in tub against a
+            <a href="https://www.agingsafelybaths.com/handicap-showers/" target="_blank" rel="noopener"><strong>roll-in shower or accessible shower</strong></a>,
+            we can help with that comparison too. Many Denver homeowners benefit from exploring both options
+            before making a final decision.
+          </p>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <!-- =========================
-       SCHEMA (LocalBusiness + Service + FAQ + WebSite)
-  ========================== -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
-      {
-        "@type":"WebSite",
-        "@id":"https://walkintubdenver.com/#website",
-        "url":"https://walkintubdenver.com/",
-        "name":"Walk In Tub Denver",
-        "publisher":{
-          "@type":"Organization",
-          "name":"Aging Safely Baths",
-          "url":"https://www.agingsafelybaths.com/"
-        }
+<!-- ============================================================
+     COLORADO COVERAGE
+============================================================ -->
+<section id="colorado">
+  <div class="wrap">
+    <div class="co-section">
+      <div class="section-label">Statewide Service</div>
+      <h2>We Serve All of Colorado — Every County, Every Corner</h2>
+      <p class="lead" style="margin-bottom:1rem;">
+        While our name says Denver, our service area covers the entire state of Colorado.
+        Whether you're in the Front Range, the Western Slope, the San Luis Valley, or the Eastern Plains —
+        we can ship your walk in tub to your door and provide professional installation or contractor coordination.
+        Our <a href="/areas-we-serve.html"><strong>Areas We Serve</strong></a> page lists specific cities,
+        but every one of Colorado's 64 counties is within our reach.
+      </p>
+
+      <div class="county-grid">
+        <div class="county highlight">Denver</div>
+        <div class="county highlight">Jefferson</div>
+        <div class="county highlight">Arapahoe</div>
+        <div class="county highlight">Douglas</div>
+        <div class="county highlight">Adams</div>
+        <div class="county highlight">Boulder</div>
+        <div class="county highlight">Larimer</div>
+        <div class="county highlight">El Paso</div>
+        <div class="county highlight">Weld</div>
+        <div class="county highlight">Broomfield</div>
+        <div class="county">Pueblo</div>
+        <div class="county">Garfield</div>
+        <div class="county">Mesa</div>
+        <div class="county">Montrose</div>
+        <div class="county">La Plata</div>
+        <div class="county">Fremont</div>
+        <div class="county">Eagle</div>
+        <div class="county">Summit</div>
+        <div class="county">Pitkin</div>
+        <div class="county">Grand</div>
+        <div class="county">Routt</div>
+        <div class="county">Moffat</div>
+        <div class="county">Rio Blanco</div>
+        <div class="county">Delta</div>
+        <div class="county">Gunnison</div>
+        <div class="county">Saguache</div>
+        <div class="county">Alamosa</div>
+        <div class="county">Conejos</div>
+        <div class="county">Costilla</div>
+        <div class="county">Rio Grande</div>
+        <div class="county">Mineral</div>
+        <div class="county">Hinsdale</div>
+        <div class="county">San Juan</div>
+        <div class="county">Ouray</div>
+        <div class="county">San Miguel</div>
+        <div class="county">Dolores</div>
+        <div class="county">Montezuma</div>
+        <div class="county">Archuleta</div>
+        <div class="county">Las Animas</div>
+        <div class="county">Huerfano</div>
+        <div class="county">Custer</div>
+        <div class="county">Otero</div>
+        <div class="county">Bent</div>
+        <div class="county">Prowers</div>
+        <div class="county">Baca</div>
+        <div class="county">Crowley</div>
+        <div class="county">Kiowa</div>
+        <div class="county">Cheyenne</div>
+        <div class="county">Kit Carson</div>
+        <div class="county">Yuma</div>
+        <div class="county">Phillips</div>
+        <div class="county">Sedgwick</div>
+        <div class="county">Logan</div>
+        <div class="county">Morgan</div>
+        <div class="county">Washington</div>
+        <div class="county">Lincoln</div>
+        <div class="county">Elbert</div>
+        <div class="county">Park</div>
+        <div class="county">Teller</div>
+        <div class="county">Clear Creek</div>
+        <div class="county">Gilpin</div>
+        <div class="county">Jackson</div>
+        <div class="county">Lake</div>
+        <div class="county">Chaffee</div>
+        <div class="county">Crowley</div>
+      </div>
+
+      <p style="margin-top:1.1rem; font-size:0.88rem; color:var(--muted);">
+        Highlighted counties represent our densest installation coverage.
+        All 64 Colorado counties are served via our drop-ship program.
+        Call <a href="tel:18887792284"><strong>1-888-779-2284 (BATH)</strong></a> to confirm availability in your area.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     QUOTE FORM
+============================================================ -->
+<section id="quote">
+  <div class="wrap">
+    <div class="quote-section">
+      <div class="quote-left">
+        <div class="section-label">Free Consultation</div>
+        <h2>Get Your Free Denver Walk In Tub Quote</h2>
+        <p>
+          Tell us about your bathroom, your mobility needs, and your timeline.
+          We'll follow up quickly with options that fit — no pressure, no confusion.
+        </p>
+        <p>
+          Prefer to talk it through? Call toll-free at <strong>1-888-779-2284 (BATH)</strong> and speak with a real person today.
+        </p>
+        <div class="mini-grid">
+          <div class="mini-box"><b>Sizing guidance</b>We'll match tub dimensions to your actual bathroom.</div>
+          <div class="mini-box"><b>Feature clarity</b>Only what improves your comfort — no upselling.</div>
+          <div class="mini-box"><b>Install or drop-ship</b>Choose the option that works for you.</div>
+          <div class="mini-box"><b>Denver-fast response</b>We follow up quickly with real answers.</div>
+        </div>
+      </div>
+
+      <div class="form-box">
+        <div class="form-title">Request Free Denver Pricing</div>
+        <div class="form-sub">Name, phone, and ZIP required. Email optional.</div>
+
+        <form id="quoteForm" novalidate>
+          <input type="hidden" name="source_site" value="walkintubdenver.com" />
+          <div class="form-row">
+            <div>
+              <label for="user_name">Full Name *</label>
+              <input id="user_name" name="user_name" type="text" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div>
+              <label for="user_phone">Phone *</label>
+              <input id="user_phone" name="user_phone" type="tel" placeholder="(720) 555-5555" required autocomplete="tel" />
+            </div>
+            <div class="full">
+              <label for="user_zip">ZIP Code *</label>
+              <input id="user_zip" name="user_zip" type="text" placeholder="Denver ZIP code" required />
+            </div>
+            <div class="full">
+              <label for="user_email">Email (optional)</label>
+              <input id="user_email" name="user_email" type="email" placeholder="email@example.com" autocomplete="email" />
+            </div>
+            <div class="full">
+              <label for="user_message">Tell us about your bathroom or tub needs (optional)</label>
+              <textarea id="user_message" name="user_message" placeholder="Example: Replacing a standard tub. Two-person bathroom. Interested in hydrotherapy jets."></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button class="btn green lg" type="submit">Send My Request →</button>
+            <div class="disclaimer">By submitting, you agree we may contact you about walk in tub options. We do not sell your information.</div>
+          </div>
+          <div id="formStatus" aria-live="polite" role="status"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ — 15 QUESTIONS
+============================================================ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-label">Frequently Asked Questions</div>
+    <h2>Denver Walk In Tub FAQs</h2>
+    <p class="lead">These are the questions we hear most from Denver and Colorado homeowners. If you want quick clarity, start here.</p>
+
+    <div class="faq-grid">
+
+      <details class="faq-item">
+        <summary>How much does a walk in tub cost in Denver?</summary>
+        <div class="faq-answer">Pricing depends on the tub size, features selected, and installation needs. In general, walk in tub projects in Denver range from entry-level units to fully loaded hydrotherapy configurations. The fastest way to get accurate Denver pricing is to request a quote with your ZIP code and basic bathroom details. We will follow up with real numbers, not a range designed to get you on the phone.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How long does installation take?</summary>
+        <div class="faq-answer">In most Denver-area homes, professional installation is completed in a single day. Our factory-certified installers remove the existing tub, prepare the space, install the new walk in tub, connect plumbing, and do a full cleanup — all in one visit. In some cases with unusual plumbing configurations or older subfloor conditions, a second day may be needed, but that is the exception rather than the rule.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I use my own contractor for installation?</summary>
+        <div class="faq-answer">Yes. Our DIY drop-ship program lets you purchase your chosen walk in tub and have it shipped directly to your home or your contractor's location. You still receive full white glove product guidance and sizing help from us — and the full product warranty applies. Your contractor simply handles the physical installation. We provide spec sheets and are available to answer technical questions during the project.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I know what size walk in tub fits my bathroom?</summary>
+        <div class="faq-answer">We look at your layout, doorway clearance, existing tub footprint, and plumbing locations. Then we recommend sizes that fit cleanly and function well. Most standard Denver bathrooms can accommodate a walk in tub within the existing tub alcove. If your bathroom has an unusual layout, we work through the options with you before any purchase is made.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is a transfer-style tub better than a standard walk in tub?</summary>
+        <div class="faq-answer">It depends on your mobility profile and bathing routine. A transfer-style walk in tub has a door on the long side of the tub, which makes entering from a wheelchair or mobility aid easier. A standard walk in tub has a door on the end and is more suitable for people who can step in and prefer a traditional tub feel. We help you evaluate which entry style matches your current needs and your likely needs over the next several years.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What features are actually worth paying for?</summary>
+        <div class="faq-answer">The features most consistently rated as worthwhile by our clients are hydrotherapy jets for joint and muscle relief, a heated seat for comfort during fill and drain time, a fast drain system to reduce waiting in a cooling tub, and a handheld showerhead for rinsing. Air bubble systems, chromotherapy lighting, and aromatherapy are popular upgrades but less universally essential. We help you evaluate which features match your specific comfort goals so you only pay for what you'll actually use.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do walk in tubs require a lot of hot water?</summary>
+        <div class="faq-answer">Walk in tubs do use more hot water than a standard shower because you enter before the tub fills. Most Denver homes with a standard 40–50 gallon water heater can support a walk in tub, though you may notice the second fill of the day is less warm than the first. Households with tankless water heaters have no issue. We review your hot water situation as part of our guidance process so there are no surprises after installation.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do you service areas outside Denver?</summary>
+        <div class="faq-answer">Yes — we serve all of Colorado. Our professional installation team covers the entire Denver metro area including Boulder, Fort Collins, Colorado Springs, Pueblo, and the surrounding Front Range. We also offer drop-ship service to all 64 Colorado counties, including the Western Slope, mountain communities, and the Eastern Plains. See our <a href="/areas-we-serve.html">Areas We Serve page</a> for more detail.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is there a warranty on the walk in tub?</summary>
+        <div class="faq-answer">Yes. The products we carry come with manufacturer warranties covering the tub shell, jets, and mechanical components. Additionally, when you choose our professional installation service, the installation itself is warranted. We walk through all warranty details with you during our guidance process so you understand exactly what is covered and for how long before you commit to a purchase.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can a walk in tub help with arthritis or joint pain?</summary>
+        <div class="faq-answer">Many of our clients report significant relief from soaking in warm water with hydrotherapy jets, particularly for arthritis, hip pain, back stiffness, and leg circulation issues. While we are not able to make medical claims, warm water immersion combined with targeted hydrotherapy has a well-documented history as a comfort therapy for joint conditions. If this is a primary motivation for your purchase, we can specifically focus on hydrotherapy jet configurations that target the areas you care most about.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What is the difference between air jets and hydrotherapy jets?</summary>
+        <div class="faq-answer">Air jets push thousands of tiny air bubbles through the water, creating a gentle, effervescent sensation across the whole body. Hydrotherapy (or water) jets push pressurized water through targeted nozzles, providing a more focused massage-like sensation on specific muscle groups. Many walk in tubs offer both systems, which can be used independently or together. We help you understand which combination fits your comfort goals and physical needs.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I get a VA HISA grant to help pay for a walk in tub?</summary>
+        <div class="faq-answer">Veterans may qualify for the VA Home Improvements and Structural Alterations (HISA) grant, which can cover accessible bathing modifications including walk in tubs. Eligibility depends on service-related disability status and other factors. We have experience working with Veterans and can provide the documentation your contractor or VA representative needs. Visit <a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener">Aging Safely Baths' VA HISA guide</a> for complete eligibility information.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I prepare my bathroom before installation day?</summary>
+        <div class="faq-answer">We provide a simple preparation checklist once your installation is scheduled. In general, you'll want to clear the path from your front door to the bathroom, remove personal items from the bathroom surfaces, and ensure the water shutoff valves are accessible. Our installation team brings all tools and materials — you do not need to purchase anything in advance. We handle the old tub removal and disposal as part of the service.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What happens if I have a problem after installation?</summary>
+        <div class="faq-answer">Post-installation support is part of our commitment. If you experience any issue with the tub or the installation — whether it's a mechanical question, a comfort adjustment, or a warranty claim — we are a phone call away. Unlike some larger companies that become hard to reach after the sale, we maintain a genuine support relationship with our clients. Call <a href="tel:18887792284">1-888-779-2284 (BATH)</a> and a real person will help you.</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I get started today?</summary>
+        <div class="faq-answer">The easiest way is to complete the quote form on this page or call us toll-free at <a href="tel:18887792284">1-888-779-2284 (BATH)</a>. We'll ask a few quick questions about your bathroom, your mobility needs, and your timeline — then follow up with clear recommendations and Denver-specific pricing. There is no pressure and no obligation. Our goal is to make sure you have the information you need to make a confident decision.</div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo-wrap">
+        <img
+          src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
+          alt="Aging Safely Baths"
+          height="55"
+          loading="lazy"
+        />
+      </div>
+      <p class="footer-p">WalkInTubDenver.com is a Denver-focused resource operated by Aging Safely Baths &amp; More — walk in tub and accessible bathing specialists serving all of Colorado.</p>
+      <p class="footer-p">Call toll free: <a href="tel:18887792284">1-888-779-2284(BATH)</a></p>
+      <p class="footer-p">Brand site: <a href="https://www.agingsafelybaths.com/" target="_blank" rel="noopener noreferrer">Aging Safely Baths</a> &bull; Product store: <a href="https://denverwalkintub.com/" target="_blank" rel="noopener noreferrer">DenverWalkInTub.com</a></p>
+    </div>
+
+    <div>
+      <div class="footer-title">Site Navigation</div>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="#process">Our Process</a></li>
+        <li><a href="#installation">Installation Options</a></li>
+        <li><a href="#colorado">Colorado Coverage</a></li>
+        <li><a href="#quote">Free Quote</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="/areas-we-serve.html">Areas We Serve</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/sitemap.xml">XML Sitemap</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="footer-title">Resources</div>
+      <ul class="footer-links">
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tubs/" target="_blank" rel="noopener">All Walk-In Tubs</a></li>
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tub-guide/" target="_blank" rel="noopener">Walk-In Tub Guide</a></li>
+        <li><a href="https://www.agingsafelybaths.com/white-glove-installation/" target="_blank" rel="noopener">White Glove Installation</a></li>
+        <li><a href="https://www.agingsafelybaths.com/va-hisa-grant-for-bathroom-modifications/" target="_blank" rel="noopener">VA HISA Grant Guide</a></li>
+        <li><a href="https://www.agingsafelybaths.com/walk-in-tub-leak-protection/" target="_blank" rel="noopener">Leak Protection</a></li>
+        <li><a href="https://www.agingsafelybaths.com/factory-certified-installers/" target="_blank" rel="noopener">Certified Installers</a></li>
+        <li><a href="https://denverwalkintub.com/" target="_blank" rel="noopener">Buy a Walk In Tub</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>Copyright 2026 WalkInTubDenver.com — All Rights Reserved</span>
+    <span><a href="tel:18887792284">Call 1-888-779-2284(BATH)</a> &bull; <a href="/sitemap.xml">Sitemap</a></span>
+  </div>
+</footer>
+
+<!-- ============================================================
+     HAMBURGER JS
+============================================================ -->
+<script>
+function toggleMenu(btn) {
+  const nav = document.getElementById('mobileNav');
+  const open = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', !open);
+  open ? closeMenu() : nav.classList.add('open');
+  document.body.style.overflow = open ? '' : 'hidden';
+  if (!open) { setTimeout(() => { nav.querySelector('.mobile-drawer').style.transform = 'translateX(0)'; }, 10); }
+}
+function closeMenu() {
+  const nav = document.getElementById('mobileNav');
+  const btn = document.querySelector('.hamburger');
+  nav.classList.remove('open');
+  document.body.style.overflow = '';
+  if (btn) btn.setAttribute('aria-expanded', 'false');
+}
+function closeMenuOnOverlay(e) { if (e.target === document.getElementById('mobileNav')) closeMenu(); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+</script>
+
+<!-- ============================================================
+     EMAILJS
+============================================================ -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const PUBLIC_KEY   = 'alWutsHLG6c3h9P2j';
+  const SERVICE_ID   = 'service_usimtub';
+  const TEMPLATE_ID  = 'template_5n0cskt';
+  const form         = document.getElementById('quoteForm');
+  const statusEl     = document.getElementById('formStatus');
+
+  if (!form) return;
+  emailjs.init({ publicKey: PUBLIC_KEY });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (statusEl) { statusEl.style.color = '#0369a1'; statusEl.textContent = 'Sending…'; }
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form).then(
+      function () {
+        if (statusEl) { statusEl.style.color = '#15803d'; statusEl.textContent = '✓ Received! We will follow up with your Denver pricing shortly.'; }
+        form.reset();
       },
-      {
-        "@type":"LocalBusiness",
-        "@id":"https://walkintubdenver.com/#localbusiness",
-        "name":"Walk In Tub Denver",
-        "url":"https://walkintubdenver.com/",
-        "telephone":"+1-888-779-2284",
-        "areaServed":{
-          "@type":"City",
-          "name":"Denver"
-        },
-        "image":"https://www.agingsafelybaths.com/wp-content/uploads/2025/12/aging-safely-baths-logo-2.png-2.png",
-        "brand":{
-          "@type":"Brand",
-          "name":"Aging Safely Baths"
-        },
-        "sameAs":[
-          "https://www.agingsafelybaths.com/",
-          "https://denverwalkintub.com/"
-        ]
-      },
-      {
-        "@type":"Service",
-        "@id":"https://walkintubdenver.com/#service",
-        "serviceType":"Walk-in tub guidance and pricing",
-        "provider":{
-          "@id":"https://walkintubdenver.com/#localbusiness"
-        },
-        "areaServed":[
-          { "@type":"City", "name":"Denver" }
-        ]
-      },
-      {
-        "@type":"FAQPage",
-        "@id":"https://walkintubdenver.com/#faq",
-        "mainEntity":[
-          {
-            "@type":"Question",
-            "name":"How much does a walk in tub cost in Denver?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"Pricing depends on size, features, and installation needs. Request a quote with your ZIP code for accurate Denver pricing."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"How do I know what size walk in tub fits my bathroom?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"We consider your layout, doorway clearance, and placement to recommend sizes that fit cleanly and function well."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"Is a transfer-style tub better than a standard walk in tub?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"It depends on mobility and comfort needs. Transfer style can help some users, but it is not best for everyone."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"Which features are worth it?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"Many homeowners like hydrotherapy jets, air bubbles, heated seats, and quick drainage. We help you choose features that improve comfort without overspending."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"Do you serve areas outside Denver?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"Yes. See the Areas We Serve page for nearby cities and neighborhoods we support."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"How do I get started?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"Request pricing through the contact form or call toll free. We guide you through sizing, mobility fit, and feature choices."
-            }
-          },
-          {
-            "@type":"Question",
-            "name":"Can I call to speak with someone today?",
-            "acceptedAnswer":{
-              "@type":"Answer",
-              "text":"Yes. Call toll free at 1-888-779-2284(BATH)."
-            }
-          }
-        ]
+      function (err) {
+        if (statusEl) { statusEl.style.color = '#b91c1c'; statusEl.textContent = 'Something went wrong. Please call 1-888-779-2284 (BATH) directly.'; }
+        console.error('EmailJS error:', err);
       }
-    ]
-  }
-  </script>
+    );
+  });
+});
+</script>
+
+<!-- ============================================================
+     SCHEMA
+============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://walkintubdenver.com/#website",
+      "url": "https://walkintubdenver.com/",
+      "name": "Walk In Tub Denver",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aging Safely Baths",
+        "url": "https://www.agingsafelybaths.com/",
+        "logo": { "@type": "ImageObject", "url": "https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png" }
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://walkintubdenver.com/#localbusiness",
+      "name": "Walk In Tub Denver",
+      "url": "https://walkintubdenver.com/",
+      "telephone": "+1-888-779-2284",
+      "description": "White glove walk in tub guidance and installation for Denver and all of Colorado. One-day professional installation and DIY drop-ship options available.",
+      "areaServed": [
+        { "@type": "City", "name": "Denver" },
+        { "@type": "State", "name": "Colorado" }
+      ],
+      "image": "https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png",
+      "brand": { "@type": "Brand", "name": "Aging Safely Baths" },
+      "sameAs": ["https://www.agingsafelybaths.com/", "https://denverwalkintub.com/"]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://walkintubdenver.com/#service",
+      "serviceType": "Walk-in tub guidance, sales, and installation",
+      "name": "Walk In Tub Denver — White Glove Installation",
+      "description": "One-day professional walk in tub installation and DIY drop-ship for Denver and all of Colorado. Factory-certified installers, lifetime warranties, and full white glove guidance.",
+      "provider": { "@id": "https://walkintubdenver.com/#localbusiness" },
+      "areaServed": [{ "@type": "State", "name": "Colorado" }],
+      "offers": { "@type": "Offer", "description": "Free consultation and pricing quote", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://walkintubdenver.com/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "How much does a walk in tub cost in Denver?", "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on tub size, features, and installation needs. Request a quote with your ZIP code for accurate Denver pricing." } },
+        { "@type": "Question", "name": "How long does installation take?", "acceptedAnswer": { "@type": "Answer", "text": "In most Denver-area homes, professional installation is completed in a single day by our factory-certified installers." } },
+        { "@type": "Question", "name": "Can I use my own contractor for installation?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our DIY drop-ship program ships your chosen walk in tub to your home or contractor. You still receive full white glove product guidance and the full product warranty applies." } },
+        { "@type": "Question", "name": "How do I know what size walk in tub fits my bathroom?", "acceptedAnswer": { "@type": "Answer", "text": "We review your layout, doorway clearance, and tub footprint, then recommend sizes that fit cleanly and function well." } },
+        { "@type": "Question", "name": "Do you service areas outside Denver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we serve all of Colorado, including all 64 counties. Professional installation covers the Front Range; drop-ship is available statewide." } },
+        { "@type": "Question", "name": "Can I get a VA HISA grant for a walk in tub?", "acceptedAnswer": { "@type": "Answer", "text": "Veterans may qualify for the VA HISA grant covering accessible bathing modifications. We have experience working with Veterans and can provide the documentation required." } },
+        { "@type": "Question", "name": "How do I get started?", "acceptedAnswer": { "@type": "Answer", "text": "Complete the quote form on this page or call toll-free at 1-888-779-2284 (BATH). We follow up with clear recommendations and Denver-specific pricing." } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://walkintubdenver.com/" }
+      ]
+    }
+  ]
+}
+</script>
 
 </body>
 </html>
