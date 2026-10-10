@@ -658,7 +658,8 @@
        (appended after existing rules so it overrides them)
     ============================================================ */
     html { font-size: 112.5%; }
-    .brand img { height: 72px; }
+    .brand { flex: 0 1 280px; min-width: 0; }
+    .brand img { width: 280px; max-width: 100%; height: auto; }
     .header-inner { height: 84px; }
     .btn { background: var(--blue2); min-height: 48px; }
     .btn:hover { background: #075985; }
@@ -690,11 +691,11 @@
       .header-nav { display: none; }
       .header-cta { display: none; }
       .hamburger { display: flex; min-height: 48px; min-width: 52px; justify-content: center; }
+      .header-inner { flex-wrap: nowrap; }
     }
     @media (max-width: 860px) {
       .callbar { display: flex; }
       footer { padding-bottom: 90px; }
-      .brand img { height: 64px; }
       .install-card { min-width: 0; }
       .install-grid > * { min-width: 0; }
       .btn { white-space: normal; text-align: center; }
@@ -716,9 +717,9 @@
     <div class="brand">
       <a href="/" aria-label="Walk In Tub Denver home">
         <img
-          src="https://www.agingsafelybaths.com/wp-content/uploads/2026/03/Aging-Safely-Baths-Logo-320.png"
+          src="/assets/aging-safely-baths-logo-header.webp"
           alt="Aging Safely Baths — Walk In Tub Denver"
-          width="320" height="120"
+          width="280" height="74"
           loading="eager"
         />
       </a>
