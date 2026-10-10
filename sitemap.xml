@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://walkintubdenver.com/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-10</lastmod>
     <priority>1.0</priority>
   </url>
-
   <url>
     <loc>https://walkintubdenver.com/areas-we-serve.html</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.9</priority>
   </url>
-
   <url>
     <loc>https://walkintubdenver.com/contact.html</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://walkintubdenver.com/bathroom-fall-prevention/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/caregiver-bathroom-guide/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/denver-senior-resources/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/measure-for-a-walk-in-tub/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/paying-for-a-walk-in-tub/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-arvada-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-aurora-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-boulder-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-broomfield-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-castle-rock-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-centennial-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-cost-denver/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-englewood-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-faq/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-features/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-golden-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-highlands-ranch-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-installation-denver/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-lakewood-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-littleton-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-parker-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-thornton-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-vs-walk-in-shower/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-westminster-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://walkintubdenver.com/walk-in-tub-wheat-ridge-co/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
