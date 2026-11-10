@@ -261,3 +261,6 @@ tr:last-child td{border-bottom:0}
 @media (max-width:900px){.bbb-why-in{grid-template-columns:minmax(0,1fr);gap:22px}.bbb-why-side{max-width:420px}}
 @media (max-width:600px){.bbb-why{padding:38px 0}.bbb-why-grid{grid-template-columns:minmax(0,1fr)}}
 .bbb-vcard-side{margin:0}
+/* Inline quote form on guide and city pages (2026-11-10) */
+.page-quote{padding:36px 0 12px}
+.page-quote .form-card{max-width:760px;margin:0 auto}

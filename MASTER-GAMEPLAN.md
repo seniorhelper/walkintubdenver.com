@@ -43,3 +43,11 @@ Aging Safely Baths & More, LLC. 1-888-779-2284, sales@agingsafelybaths.com. BBB 
 
 ## Measurement
 GA4 property per site (account 45765285), key events generate_lead and phone_click. Search Console: bare domain property, sitemap.xml submitted. Check queries and positions in GA4's Search Console report at the start of every project.
+
+## 2026-11-10 (branch seo-leads-2026-11-10, not pushed)
+Based on GSC Oct 25 to Nov 8 (side-session-notes GSC-GA4-DIAGNOSIS-2026-11-10.md): 581 impressions, 0 clicks; "walk in tub denver" 71 impr pos 12.9; 34 of 38 pages had no inline form.
+- Inline quote form added near the end of 31 pages (17 city pages + 14 guides incl. areas-we-serve.html). Markup copied byte-for-byte from contact.html (#quoteForm), loads the same EmailJS SDK + /assets/quote-form.js + /lead-send.js, so lead-send.js wraps emailjs.sendForm exactly as on contact.html (checked in a browser: wrapper active, no console errors, no sideways scroll at 390px). Phone callbar "Free quote" on those pages now jumps to #free-quote instead of leaving for contact.html. Not submitted.
+- Home title/meta rewritten for CTR: "Walk In Tubs Denver | Free Quote, Local Installer Since 2012".
+- Timnath: the Fort Collins page already covers Timnath fully (title, permit office, FAQ), so nothing added. Watch "walk in bathtub timnath" (53 impr, pos 17.4) after the form change.
+- Skipped on purpose: privacy, denver-senior-resources, denver-winter-help-older-adults (info pages) and denver-home-repair-accessibility-programs (has its own finder form).
+Next: request indexing for the home page; recheck CTR on "walk in tub denver" around Nov 24.
